@@ -5,6 +5,7 @@ import java.util.Random;
 public class BallBrokenFloor {
     private int nFloors;
     private int minBrokenFloor;
+    
     public BallBrokenFloor(int nFloors) {
         this.nFloors = nFloors;
         minBrokenFloor = new Random().nextInt(1, nFloors + 1);
